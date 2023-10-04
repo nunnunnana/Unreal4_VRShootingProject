@@ -28,8 +28,9 @@
   - PickupActorInterface 인터페이스 생성하고 PickUp, Drop 함수 추가
   - 상호작용할 액터에 인터페이스 이벤트 구현
   - 액터를 그랩했을 때 PickUp 이벤트 호출, 릴리즈 했을 때 Drop 이벤트 호출
+  
+![VRShooting이동및그랩](https://github.com/nunnunnana/Unreal4_VRShootingProject/assets/99165741/e2f62cfd-1705-422b-a670-b7154d440d53)
 
-![오리아나 궁극기](https://github.com/nunnunnana/Unreal4LOLProject/assets/99165741/5b7ce62a-9adb-4aa7-9c5e-b49d6a9d7a88)
 
 - 블루프린트 코드
 
@@ -51,8 +52,9 @@ VR_Project_Weapon_Knife
   - 손잡이부분에 Collision 생성
   - 처음 액터를 그랩할 때 First Hand로 설정하고 손잡이 부분을 그랩할 때 Second Hand로 설정
   - Second Hand만 Detach하기 위해 인터페이스에 함수 추가
+  
+![VRShooting사격](https://github.com/nunnunnana/Unreal4_VRShootingProject/assets/99165741/279b4c67-b653-4c7f-a3cc-d1bd4cbfc65a)
 
-![오리아나 궁극기](https://github.com/nunnunnana/Unreal4LOLProject/assets/99165741/5b7ce62a-9adb-4aa7-9c5e-b49d6a9d7a88)
 
 - 블루프린트 코드
 
