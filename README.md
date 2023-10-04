@@ -66,9 +66,13 @@ VR_Project_Weapon_AK_VAL
 
 >월드 상호작용
 
+![VRShooting월드상호작용](https://github.com/nunnunnana/Unreal4_VRShootingProject/assets/99165741/a70d6ea5-e954-4657-ac7c-cac863af5766)
+
 - 
 
 >위젯 상호작용
+
+![VRShooting위젯상호작용](https://github.com/nunnunnana/Unreal4_VRShootingProject/assets/99165741/dc54e4f0-621a-40ea-bcf4-d4fa859154f5)
 
 - 
 
