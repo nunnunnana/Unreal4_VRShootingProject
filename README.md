@@ -64,16 +64,24 @@ VR_Project_Weapon_SMG11
 VR_Project_Weapon_AK_VAL
 >https://blueprintue.com/blueprint/r67rta_u/
 
+
 ### 월드 상호작용
 - Door
   - 인터페이스에 Tirgger 함수 추가
 - Bot
   - 손잡이부분에 Collision 생성
 
-
 ![VRShooting월드상호작용](https://github.com/nunnunnana/Unreal4_VRShootingProject/assets/99165741/a70d6ea5-e954-4657-ac7c-cac863af5766)
 
-- 
+
+- 블루프린트 코드
+
+VR_Project_Pawn
+>https://blueprintue.com/blueprint/jxch0yzb/
+
+VR_Project_Weapon_Knife
+>https://blueprintue.com/blueprint/b1o_9dyw/
+
 
 ### 위젯 상호작용
 - 시작 및 종료
@@ -83,6 +91,10 @@ VR_Project_Weapon_AK_VAL
 
 ![VRShooting위젯상호작용](https://github.com/nunnunnana/Unreal4_VRShootingProject/assets/99165741/dc54e4f0-621a-40ea-bcf4-d4fa859154f5)
 
-- 
-
 - 블루프린트 코드
+
+VR_Project_Pawn
+>https://blueprintue.com/blueprint/jxch0yzb/
+
+VR_Project_Weapon_Knife
+>https://blueprintue.com/blueprint/b1o_9dyw/
