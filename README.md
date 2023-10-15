@@ -67,9 +67,9 @@ VR_Project_Weapon_AK_VAL
 
 ### 월드 상호작용
 - Door
-  - 인터페이스에 Tirgger 함수 추가
+  - Trigger에 들어오면 Door Open하고 자동으로 게임 시작
 - Bot
-  - 손잡이부분에 Collision 생성
+  - Actor가 파괴되면 BP_Menu 액터에 KillCount 이벤트 호출
 
 ![VRShooting월드상호작용](https://github.com/nunnunnana/Unreal4_VRShootingProject/assets/99165741/a70d6ea5-e954-4657-ac7c-cac863af5766)
 
@@ -84,12 +84,18 @@ BP_Bot_Actor_DM
 
 
 ### 위젯 상호작용
-- 시작 및 종료
-  - 인터페이스에 Tirgger 함수 추가
-- 타이머 및 결과
-  - 손잡이부분에 Collision 생성
+- 버튼 상호작용
+  - 버튼에 Collision을 생성하고 MotionController의 Finger Sphere가 Overlap되면 Button의 Location과 Finger Sphere의 Location을 비교해 Press_Distance 보다 작아지면 Press 이벤트 실행
+  - Inverse Transform Location 노드를 사용해 Button Actor를 기준으로 Finger Sphere를 로컬 좌표계로 변환, Press Distance 만큼의 버튼이 눌리는 정도를 로컬 좌표계로 변환해 버튼의 Z값으로 Location 설정
+  - Controller가 End Overlap 되면 Tick Event의 Gate를 Close하고 버튼을 초기 위치로 변경
+  - 버튼이 Press 됐을 때 실행할 Button_Action 이벤트는 상속받은 클래스에서 오버라이드하여 사용
+- 메뉴
+  - BP_Menu에는 상호작용 가능한 버튼 3개와 Timer, Count, Score 텍스트 컴포넌트로 구성
+  - Bot_Actor가 파괴 될 때 마다 Kill Count에 +1 모든 봇을 파괴하면 스톱워치를 종료하고 Score 출력
+  - Time에 따라 Score 출력 변경
 
 ![VRShooting위젯상호작용](https://github.com/nunnunnana/Unreal4_VRShootingProject/assets/99165741/dc54e4f0-621a-40ea-bcf4-d4fa859154f5)
+
 
 - 블루프린트 코드
 
