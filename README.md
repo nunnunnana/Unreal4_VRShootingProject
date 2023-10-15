@@ -76,11 +76,11 @@ VR_Project_Weapon_AK_VAL
 
 - 블루프린트 코드
 
-VR_Project_Pawn
->https://blueprintue.com/blueprint/jxch0yzb/
+BP_Door
+>https://blueprintue.com/blueprint/i_16f5mg/
 
-VR_Project_Weapon_Knife
->https://blueprintue.com/blueprint/b1o_9dyw/
+BP_Bot_Actor_DM
+>https://blueprintue.com/blueprint/_m87lq1i/
 
 
 ### 위젯 상호작용
@@ -93,8 +93,17 @@ VR_Project_Weapon_Knife
 
 - 블루프린트 코드
 
-VR_Project_Pawn
->https://blueprintue.com/blueprint/jxch0yzb/
+BP_Button_Parent
+>https://blueprintue.com/blueprint/bg1valos/
 
-VR_Project_Weapon_Knife
->https://blueprintue.com/blueprint/b1o_9dyw/
+BP_Menu
+>https://blueprintue.com/blueprint/qvry7efa/
+
+BP_Button_Start
+>https://blueprintue.com/blueprint/qreb_nve/
+
+BP_Button_Restart
+>https://blueprintue.com/blueprint/c6ps8vpz/
+
+BP_Button_Quit
+>https://blueprintue.com/blueprint/jb7_wr1n/
